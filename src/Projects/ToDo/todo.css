@@ -24,6 +24,8 @@ body{
   color: white;
   transition: 0.3s linear;
   overflow: hidden;
+ 
+
 }
 
 .header,
@@ -305,9 +307,11 @@ li span {
   color: white;
   transition: 0.3s linear;
   overflow: hidden;
+   width: 100%;
+  max-width: 280px;
 }
   .todo-container {
-    padding: 0.8rem;
+    padding: 0.5rem;
   }
 
   section h1 {
@@ -359,31 +363,35 @@ li span {
   }
 
   .todo-item {
-    font-size: 0.3rem;
+    /* font-size: 0.2rem; */
     padding: 0.1rem;
-    margin: 0.3rem auto;
+     margin: 10px 1px; 
     /* grid-template-columns: 1fr; */
     grid-template-columns: 1fr 0.3fr 0.3fr;
     align-items: center;
-    margin-right: 10px;
-    width: 20%;
-    /* border: 1px solid rgb(230, 7, 7); */
+    margin-right: 20px;
+    min-width: 220px;
+     max-width: 100%;
+    /* width: 100px; */
+    border: 1px solid rgb(230, 7, 7); 
   }
 
   li span {
     font-size: 1.0rem;
     /* word-break: break-word; */
     /* max-width: 80%; */
-    width: 50%;
-    margin-left :10%;
-    /* border: 1px solid black; */
+    /* width: 100px; */
+    margin-left :10px;
+    margin-right: 0px;
+    border: 1px solid black; 
   }
 
   .check-btn,
   .delete-btn {
-    font-size: 1.6rem;
+    font-size: 1.0rem;
     width: 2.2rem;
     height: 2.2rem;
+    margin: 1px 1px;
   }
 
   .clear-btn {
