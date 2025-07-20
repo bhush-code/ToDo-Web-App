@@ -308,7 +308,7 @@ li span {
   transition: 0.3s linear;
   overflow: hidden;
    width: 100%;
-  max-width: 280px;
+  max-width: 380px;
 }
   .todo-container {
     padding: 0.5rem;
@@ -343,17 +343,18 @@ li span {
   }
 
   form button {
-    font-size: 1.4rem;
+    font-size: 1.0rem;
     padding: 0.7rem;
     border-radius: 8px;
     margin-right: 10px;
+
     
   }
 
    .myUnOrdList
   {
 
-    margin-right: 20px;
+    margin-right: 50px;
     display: flex;
     flex-direction: column;
     /* border: 1px solid red; */
@@ -365,15 +366,16 @@ li span {
   .todo-item {
     /* font-size: 0.2rem; */
     padding: 0.1rem;
-     margin: 10px 1px; 
+     margin: 5px auto;
+     margin-left: 3px; 
     /* grid-template-columns: 1fr; */
     grid-template-columns: 1fr 0.3fr 0.3fr;
     align-items: center;
-    margin-right: 20px;
-    min-width: 220px;
-     max-width: 100%;
+    margin-right: 10px;
+    min-width: 280px;
+   max-width: 100%;
     /* width: 100px; */
-    border: 1px solid rgb(230, 7, 7); 
+    /* border: 1px solid rgb(230, 7, 7);  */
   }
 
   li span {
@@ -383,7 +385,7 @@ li span {
     /* width: 100px; */
     margin-left :10px;
     margin-right: 0px;
-    border: 1px solid black; 
+    /* border: 1px solid black;  */
   }
 
   .check-btn,
@@ -395,9 +397,10 @@ li span {
   }
 
   .clear-btn {
-    font-size: 1.3rem;
+    font-size: 1.0rem;
     padding: 0.6rem 1.2rem;
     margin-left: 10px;
+    max-width: 200px;
   }
 
 }
