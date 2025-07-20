@@ -11,7 +11,7 @@ node_modules
 dist
 dist-ssr
 *.local
-Project/ToogleSwitch
+Projects/ToogleSwitch
 
 # Editor directories and files
 .vscode/*
